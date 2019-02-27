@@ -6,5 +6,7 @@ RUN dnf update; \
 	dnf -y install \
 		meson \
 		clang \
+        libcurl-devel \
+        json-c-devel \
 		; \
 	dnf clean all;
