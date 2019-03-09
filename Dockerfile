@@ -7,6 +7,6 @@ RUN dnf update; \
 		meson \
 		clang \
         libcurl-devel \
-        json-c-devel \
+        json-glib-devel \
 		; \
 	dnf clean all;
